@@ -1,0 +1,6 @@
+app:
+    project:
+        name: ${APP_NAME:default-name} @project.artifactId@
+spring:
+    main:
+     LogStartupInfo: false
